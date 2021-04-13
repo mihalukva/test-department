@@ -1,0 +1,64 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "info": {
+        "name": "Oncology",
+        "APIKey": "asdasd123"
+      },
+      "contactPerson": {
+        "name": "Frederica Sanchez",
+        "email": "frederica.sanchez@oncology.lmu.de",
+        "telephone": "089276861523"
+      }
+    },
+    {
+      "id": 2,
+      "info": {
+        "name": "Oncology2",
+        "APIKey": "asd2"
+      },
+      "contactPerson": {
+        "name": "Frederica Sanchez2",
+        "email": "frederica.sanchez@oncology.lmu.de2",
+        "telephone": "0892768615232"
+      }
+    },
+    {
+      "id": 3,
+      "info": {
+        "name": "Oncology_3",
+        "APIKey": "asd_3"
+      },
+      "contactPerson": {
+        "name": "Frederica Sanchez_3",
+        "email": "frederica.sanchez@oncology.lmu.de_3",
+        "telephone": "0892768615232"
+      }
+    },
+    {
+      "id": 4,
+      "info": {
+        "name": "Oncology_4",
+        "APIKey": "asd2_4"
+      },
+      "contactPerson": {
+        "name": "Frederica Sanchez_4",
+        "email": "frederica.sanchez@oncology.lmu.de_4",
+        "telephone": "0892768615232"
+      }
+    },
+    {
+      "id": 5,
+      "info": {
+        "name": "Oncology_51",
+        "APIKey": "asd_5"
+      },
+      "contactPerson": {
+        "name": "Frederica Sanchez_5",
+        "email": "frederica.sanchez@oncology.lmu.de_5",
+        "telephone": "0892768615232"
+      }
+    }
+  ]
+}

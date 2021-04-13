@@ -1,0 +1,11 @@
+@import "../index.scss";
+
+.nav-breadcrumb {
+  @extend .breadcrumb;
+  &__item {
+    @extend .breadcrumb-item;
+    &_active {
+      @extend .breadcrumb-item, .active;
+    }
+  }
+}

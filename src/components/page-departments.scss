@@ -1,0 +1,30 @@
+@import "../index.scss";
+
+.department {
+  display: flex;
+  flex-direction: column;
+  &__title {
+    @extend .h2;
+    flex: 0 0 1;
+    margin-bottom: 30px;
+  }
+  &__controls {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+  }
+  &__search-text {
+    @extend .form-control;
+    width: auto;
+    flex: 1 0 auto;
+    margin-right: 30px;
+  }
+  &__search-button {
+    @extend .btn, .btn-success;
+  }
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px, 1fr) );
+    gap:15px;
+  }
+}

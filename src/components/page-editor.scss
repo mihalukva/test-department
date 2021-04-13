@@ -1,0 +1,17 @@
+@import "../index.scss";
+
+.department-edit {
+  &__controls {
+      display: flex;
+      margin-top:15px;
+      justify-content: space-between;
+  }
+  &__close-button {
+    @extend .btn, .btn-secondary;
+    flex:0 0 30%;
+  }
+  &__save-button {
+    @extend .btn, .btn-success;
+    flex:0 0 60%;
+  }
+}

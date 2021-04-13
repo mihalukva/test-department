@@ -1,0 +1,35 @@
+@import "../index.scss";
+
+.form-editor {
+  @extend .card;
+  padding: 2rem 1rem 1rem 1rem;
+  position: relative;
+  margin-top: 2rem;
+  &__title {
+    position: absolute;
+    top: -1.5rem;
+    left: 1rem;
+    margin: 0px;
+    padding: 0px;
+    @extend .bg-white;
+  }
+  &__fields {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+  }
+  &__label {
+    @extend .col-form-label;
+  }
+  &__input {
+    @extend .form-control;
+  }
+  &__controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  &__control {
+    @extend .btn, .btn-success;
+  }
+}

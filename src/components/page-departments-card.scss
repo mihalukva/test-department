@@ -1,0 +1,21 @@
+@import "../index.scss";
+
+.department-card {
+  @extend .card;
+  &__header {
+    @extend .card-header;
+  }
+  &__img {
+    align-self: center;
+    max-width: 100px;
+    padding: 10px;
+    svg {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__body {
+    @extend .card-body;
+    align-self: flex-end;
+  }
+}

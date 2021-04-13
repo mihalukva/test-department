@@ -1,0 +1,32 @@
+@import "../index.scss";
+
+.edit-form-modal {
+  @extend .modal;
+  &__dialog {
+    @extend .modal-dialog;
+  }
+  &__content {
+    @extend .modal-content;
+  }
+  &__header {
+    @extend .modal-header;
+  }
+  &__title {
+    @extend .modal-title;
+  }
+  &__close {
+    @extend .close;
+  }
+  &__body {
+    @extend .modal-body;
+  }
+  &__footer {
+    @extend .modal-footer;
+  }
+  &__close-button {
+    @extend .btn ,.btn-secondary;
+  }
+  &__save-button {
+    @extend .btn ,.btn-primary;
+  }
+}

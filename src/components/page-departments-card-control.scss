@@ -1,0 +1,41 @@
+@import "../index.scss";
+
+.card-control {
+  @extend .btn-group;
+  &__button {
+    @extend .btn, .btn-secondary;
+  }
+  &__group{
+    @extend  .btn-group;
+  }
+  &__dropdown-toggle {
+    @extend .btn, .btn-secondary, .dropdown-toggle;
+  }
+  &__dropdown-menu {
+    @extend .dropdown-menu;
+    &_show {
+      @extend .show;
+    }
+  }
+  &__dropdown-item {
+    @extend .dropdown-item;
+  }
+}
+
+/* 
+.card-control {
+  @extend .dropdown;
+  &__dropdown-toggle {
+    @extend .btn, .btn-secondary, .dropdown-toggle;
+  }
+  &__dropdown-menu {
+    @extend .dropdown-menu;
+    &_show {
+      @extend .show;
+    }
+  }
+  &__dropdown-item {
+    @extend .dropdown-item;
+  }
+}
+ */
